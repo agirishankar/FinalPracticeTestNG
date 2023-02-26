@@ -23,7 +23,7 @@ import java.time.Duration;
         public void url() {
             driver.get("https://www.saucedemo.com/");
         }
-        @AfterTest
+       // @AfterTest
         public void quit(){
             driver.quit();
 

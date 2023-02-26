@@ -7,8 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 public class SwaglabLoginPage {
-
-
     private WebDriver driver;
     public SwaglabLoginPage(WebDriver driver){
         PageFactory.initElements(driver,this);

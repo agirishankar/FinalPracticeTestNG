@@ -29,6 +29,7 @@ public class SwaglabyourInformationPage {
         checkoutlasttnametextbox.sendKeys(lastname);
         checkoutzipcodetnametextbox.sendKeys(zipcode);
         continuebutton.click();
+
     }
 
 }
